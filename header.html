@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header id="begin">
+        <div class="header_container">
+            <img onclick="start()" src="./img/logo.png">
+            <div class="shadow"></div>
+            <nav class="nav">
+                <a onclick="start()" id='start' class="links linksclicked">Start</a>
+                <a onclick="rotd()" id="rotd" class="links">Rezept des Tages</a>
+                <a onclick="imp()" id="imp" class="links">Impressum</a>
+                <a onclick="kont()" id="kont" class="links">Kontakt</a>
+            </nav>
+            <div onclick="showMenu()" id="m-box" class="menu-box">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+
+            <div id="m-mobile" class="menu-mobile">
+        
+                <div onclick="closeMenu()"id="m-box" class="menu-box m-box">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <a onclick="start()" class="startMobil a-Mobile" id='start'>Start</a>
+                <a onclick="rotd()" class="a-Mobile" id="rotd">Rezept des Tages</a>
+                <a onclick="imp()" class="a-Mobile" id="imp">Impressum</a>
+                <a onclick="kont()"class="a-Mobile" id="kont">Kontakt</a>
+            </div>
+
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+
+</html>
